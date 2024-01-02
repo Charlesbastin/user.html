@@ -49,7 +49,7 @@ font-size: 13px;
 }
 .text-box{
     width:90%;
-    color:#484646;
+    color:#1b1c22;
     position: absolute;
     top:50%;
     left:50%;
@@ -68,7 +68,7 @@ font-size: 13px;
 .hero-btn{
     
        text-decoration:none;
-       color: #100f0f;
+       color:#1b1c22;
        border: 20px soild #fff;
        padding: 12px 34px;
        font-size: 13px;
@@ -114,16 +114,19 @@ nav.fa{
 
 }
 }
-/*------course------------*/
+/*---------------------------------------course-----------------------------------------*/
 .course{
     width:100%;
-    min: height 100vh;;
+    min-height: 100vh;
     margin: auto;
     text-align: center;
     padding-top:100px ;
-    background-color:#1b1f24;
+    background-image: url(img/wp12423916-batman-pc-4k-wallpapers-PhotoRoom\ \(1\).jpg);
     background-size: cover;
     position: relative;
+    background-position: center;
+    color:#1b1c22;
+   bac
 
 }
 h1{ 
@@ -146,20 +149,27 @@ p{
 }
 .course-col{
      flex-basis: 31%;
-     background:yellow;
+     padding: 20px;
+     
      border-radius:10px;
      margin-bottom: 5%;
     padding:20px 12px;
     box-sizing: border-box;
 
 }
-.h3{
+h3{
  text-align: center;
  font-weight: 600;
  margin: 10px 0;
+ color: #1b1c22;
+}
+p{
+    font-style:bold;
+    color:#fff;
 }
 .course-col:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    padding: 20px;
+    box-shadow: 0 0 60px 0px rgb(238, 230, 4);
 }
 
 /*campus*/
@@ -196,13 +206,17 @@ p{
 }
 
 .footer{
-    width: 80%;
+    width: 100%;
     margin:auto;
     text-align: center;
+    background-position: cover;
 
-
+    background-image: url(img/7d42ad820f4e7daa4e86fa67452f14d9.png);
 }
-
-
-
+.p1{
+    color: #eae8e8;
+}
+.massage h4{
+    color: #fff;
+}
 
