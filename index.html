@@ -17,7 +17,9 @@
     <!-- ========== Start header ========== -->
     <section class="header"> 
       <nav>
-         <div class="nav-links">
+         <div class="nav-links" id="navLinks">
+          <i class="fa-sharp fa-solid fa-rectangle-xmark" onclick="hideMenu()"></i> 
+          
               <ul>
                  <li><a href="">HOME</a></li>
                   <li><a href="">ABOUT</a></li>
@@ -26,6 +28,7 @@
                  <li><a href="">COURSE</a></li>
                 </ul>
               </div>
+              <i class="fa-solid fa-bars" onclick="showMenu()" ></i>  
             </nav>
       <div class="text-box">
         <h1>BATMAN FOREVER</h1>
@@ -35,17 +38,18 @@
 </p>
       <a href="" class="hero-btn" >VISIT NO KNOW MORE</a> 
       </div> 
-</section>
+</section>  
     <!-- ========== End header ========== -->
+
+
+    <!-------------------course --------------------->
     <section class="course">
     
-      <h1>COURSE WE OFFER</h1>
+      <h1>BATMAN MUTILVARSE </h1>
       <br>
       <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dolor ea debitis ducimus, aliquid sint quas ab eaque vero eligendi commodi delectus maxime sed soluta itaque adipisci blanditiis, ex necessitatibus.
-       Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sapiente accusantium neque, quo quas repudiandae ut cupiditate ipsa. Itaque, impedit.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis id maiores ut nihil provident! Maxime necessitatibus reiciendis magni architecto quis magnam quisquam et, optio iusto omnis labore atque a voluptatum.
-
+       <strong>BATMAN</strong> is superhero appearing in Amarican comic BOOKS DC comics 
+      
       </p>
 
        <div class="row">
@@ -138,10 +142,21 @@
             </div>
           </section>
             
+<!-- ========== Start javascript ========== -->
+
+
 
 
 <script>
-      
+  
+  var navLinks=document.getElementById("navLinks");
+   function showMenu(){
+    navLinks.style.right="0"; 
+   }
+   function hideMenu(){
+    navLinks.style.right="-200px"; 
+   }
+
 
     </script> 
 
